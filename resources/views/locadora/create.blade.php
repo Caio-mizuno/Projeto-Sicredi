@@ -17,7 +17,7 @@
 <section class="section">
 
     <div class="quadro">
-        <h3>Cadastro de Produtos</h3>
+        <h3>Cadastro de Locação</h3>
 
 
         <form method="POST" action="/locadora">

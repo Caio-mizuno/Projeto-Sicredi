@@ -85,14 +85,15 @@ class LocadoraController extends Controller
             $d = new DateTime(date("Y-m-d"));
             $d = $d->diff($d2);
             $dias = $d->days;
-
+            $dias++;
+            
 
 
 
             // TRATAMENTO DE STRING VINDO PELO FORMS PARA PEGAR A 'PLACA' E A 'CATEGORIA'
             $veiculo = $request->vehicle;
             $veiculo = explode(' ', $veiculo);
-            var_dump($veiculo);
+            
             foreach($allCategory as $category){
                 if($category->nome == $veiculo[1]){
                     $diaria = $category->valor;
@@ -133,7 +134,7 @@ class LocadoraController extends Controller
                 if($v->id == $vehicle->id){
                     
                     $data = $allVehicle->find($v);
-                    var_dump($data);
+                    
                     $data->status = 1;                   
                     $data->save();
                 }
@@ -145,13 +146,13 @@ class LocadoraController extends Controller
                     $data->save();
                 }
             }
-            return redirect('/locadora/create')->with('msg','['.$client->nome.'/'.$vehicle->placa.'] cadastrado com sucesso');
+             return redirect('/locadora/create')->with('msg','['.$client->nome.'/'.$vehicle->placa.'] cadastrado com sucesso');
         }
         else{
-            // return view('locadora.create',['msg'=>'Data Invalida!']);
+            
             return redirect('/locadora/create')->with('msg1',' Data Invalida!');
         }
-        // return redirect('/locadora/list')->with('msg','Produto cadastrado com sucesso');
+       
 
     }
 }

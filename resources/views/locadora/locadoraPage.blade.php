@@ -11,8 +11,8 @@
         <div class="quadro">
 
 
-            <div class="locadora__button">
-                <a href="/locadora/create" class="button__locadora button">Efetivar locação</a>
+            <div class="locadora__button shadow-md">
+                <a href="/locadora/create" class="button__locadora button ">Efetivar locação</a>
             </div>
             <div class="locadora__button">
                 <a href="/locadora/list" class="button button__locadora ">Lista de Locações</a>
@@ -29,7 +29,7 @@
 
 
             <div class="locadora__button">
-                <a href="/vehicle/create" class="button__locadora button">
+                <a href="/vehicle/create" class="button__locadora button ">
                     <i class="uil uil-plus"></i><span style="margin-left:20px;">Cadastrar</span>
                 </a>
             </div>
@@ -42,7 +42,7 @@
                 <div class="">
 
 
-                    <div class="locadora__button">
+                    <div class="locadora__button ">
                         <a href="/category/create" class="button__locadora button">
                             <i class="uil uil-plus"></i><span style="margin-left:20px;">Cadastrar</span>
                         </a>

@@ -236,9 +236,11 @@ img
 .button__locadora
 {
     width: 200px;
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
+    background:linear-gradient(to right, #428f38 11%,#69ad00 10%);
     text-align: center;
     flex-direction: column;
+    box-shadow: 0 2.5px 11px rgb(0 0 0 / 41%);
 }
 
 .navbar{
@@ -409,7 +411,7 @@ img
 
     .list-cell{
         font-size: 1rem;
-        width: 50px;
+        
     }
     .quadro-userlist{
         width: 100%
