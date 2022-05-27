@@ -34,4 +34,3 @@
 9.	Uma listagem para pedidos de locações
 
 Uma locadora de veículos possui vários veículos que podem ser alugados. Cada veículo possui várias informações (placa, cor, modelo, fabricante, ano) e pode ser alugado para somente um cliente de cada vez. O cliente, por sua vez, apresenta várias informações (nome, CPF, CNH, endereço, cartão de crédito) e pode alugar vários veículos, mas apenas um de cada vez. O aluguel de um veículo tem a quantidade de dias alugados, bem como o preço total. 
->>>>>>> efdecc6d12d11bd31abe76263238b1b73f2bb04f
